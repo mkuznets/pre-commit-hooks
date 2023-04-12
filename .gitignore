@@ -1,0 +1,17 @@
+# Ignore everything
+*
+
+# But not these files...
+!/.gitignore
+!/.gitattributes
+!/.dockerignore
+!/.github/**
+
+!*.yaml
+!*.sh
+
+!README.md
+!LICENSE
+
+# ...even if they are in subdirectories
+!*/
