@@ -1,6 +1,6 @@
 - id: format-go
   name: Format Go code and sort imports
-  entry: ./hooks/format-go.sh
+  entry: pre-commit-hooks format-go
   language: golang
   additional_dependencies: [ 'github.com/daixiang0/gci@v0.10.1', 'mvdan.cc/gofumpt@v0.5.0' ]
   types: [ 'go' ]

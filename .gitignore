@@ -9,6 +9,7 @@
 
 !*.yaml
 !*.sh
+!*.go
 
 !README.md
 !LICENSE
