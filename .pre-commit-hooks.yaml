@@ -4,3 +4,8 @@
   language: golang
   additional_dependencies: [ 'github.com/daixiang0/gci@v0.10.1', 'mvdan.cc/gofumpt@v0.5.0' ]
   types: [ 'go' ]
+- id: go-mod-tidy
+  name: go mod tidy
+  entry: go mod tidy
+  language: system
+  pass_filenames: false
