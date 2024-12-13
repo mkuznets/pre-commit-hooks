@@ -2,7 +2,7 @@
   name: Format Go code and sort imports
   entry: pre-commit-hooks format-go
   language: golang
-  additional_dependencies: [ 'github.com/daixiang0/gci@v0.11.2', 'mvdan.cc/gofumpt@v0.5.0' ]
+  additional_dependencies: [ 'github.com/daixiang0/gci@v0.13.5', 'mvdan.cc/gofumpt@v0.7.0' ]
   types: [ 'go' ]
 - id: go-mod-tidy
   name: go mod tidy
